@@ -1,14 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import{Message}from "./Message";
+import logo from "./logo.svg";
+import "./App.css";
+import { Message } from "./Message";
 import ListElements from "./ListElements";
 function App() {
-    return (
-      <div>
+  return (
+    <div>
       <Message></Message>
       <ListElements></ListElements>
-      </div>
-    
-    );
+    </div>
+  );
 }
-export default App;//Default exports
+export default App; //Default exports
