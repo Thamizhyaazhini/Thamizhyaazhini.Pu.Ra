@@ -1,16 +1,16 @@
-import logo from "./logo.svg";
 import './App.css';
-import Navbar from "./component/Navbar";
-import Main from "./component/Main";
-import Footer from "./component/Footer";
+import Navbar from "./Components/Navbar";
+import Main from "./Components/Main";
+import Footer from "./Components/Footer";
+
+
 function App() {
     return (
       <div>
-      <Navbar/>
-      <Main/>
-      <Footer/>
+        <Navbar />
+        <Main />
+        <Footer />
       </div>
-    
     );
 }
 export default App;//Default exports
